@@ -1,0 +1,98 @@
+REBEL Model Test Results Summary - All Relations
+=============================================
+
+Total sentences processed: 76
+Relations extracted: 247
+Sentences with no relations: 0
+
+Relations by source file:
+-------------------------
+cardiology_reports: 25 relations
+gastroenterology_reports: 26 relations
+neurology_reports: 24 relations
+orthopedics_reports: 27 relations
+pulmonology_reports: 27 relations
+urology_reports: 24 relations
+cholelithiasis_reports: 41 relations
+test_sentences: 26 relations
+test_cases: 27 relations
+
+Relation types found:
+--------------------
+subclass of: 65 occurrences
+has effect: 53 occurrences
+has cause: 34 occurrences
+location: 30 occurrences
+part of: 21 occurrences
+instance of: 15 occurrences
+has part: 15 occurrences
+connects with: 4 occurrences
+facet of: 3 occurrences
+medical condition treated: 2 occurrences
+studied by: 2 occurrences
+significant event: 1 occurrences
+use: 1 occurrences
+product or material produced: 1 occurrences
+
+Sample Relations:
+---------------
+1. [cardiology_reports] The patient has a myocardial infarction in the left ventricle.
+   -> left ventricle -> subclass of -> myocardial infarction
+
+2. [cardiology_reports] The patient has a myocardial infarction in the left ventricle.
+   -> myocardial infarction -> has cause -> left ventricle
+
+3. [cardiology_reports] The patient has a myocardial infarction in the left ventricle.
+   -> left ventricle -> has effect -> myocardial infarction
+
+4. [cardiology_reports] The patient has a myocardial infarction in the left ventricle.
+   -> myocardial infarction -> has cause -> left ventricle
+
+5. [cardiology_reports] There is atherosclerosis in the coronary arteries.
+   -> coronary arteries -> has effect -> atherosclerosis
+
+6. [cardiology_reports] There is atherosclerosis in the coronary arteries.
+   -> coronary arteries -> has cause -> atherosclerosis
+
+7. [cardiology_reports] There is atherosclerosis in the coronary arteries.
+   -> coronary arteries -> subclass of -> arteries
+
+8. [cardiology_reports] The echocardiogram shows mitral valve regurgitation.
+   -> mitral valve regurgitation -> subclass of -> echocardiogram
+
+9. [cardiology_reports] The echocardiogram shows mitral valve regurgitation.
+   -> mitral valve -> subclass of -> regurgitation
+
+10. [cardiology_reports] The echocardiogram shows mitral valve regurgitation.
+   -> regurgitation -> has cause -> mitral valve
+
+11. [cardiology_reports] Arrhythmia was detected in the atrial chambers.
+   -> atrial chambers -> subclass of -> Arrhythmia
+
+12. [cardiology_reports] Arrhythmia was detected in the atrial chambers.
+   -> atrial chambers -> has effect -> Arrhythmia
+
+13. [cardiology_reports] Arrhythmia was detected in the atrial chambers.
+   -> Arrhythmia -> location -> atrial chambers
+
+14. [cardiology_reports] The patient presents with chest pain and shortness of breath.
+   -> shortness of breath -> subclass of -> chest pain
+
+15. [cardiology_reports] The patient presents with chest pain and shortness of breath.
+   -> chest pain -> subclass of -> shortness of breath
+
+16. [cardiology_reports] The patient presents with chest pain and shortness of breath.
+   -> chest pain -> has effect -> shortness of breath
+
+17. [cardiology_reports] Hypertension is affecting the cardiac muscle.
+   -> cardiac muscle -> has effect -> Hypertension
+
+18. [cardiology_reports] Hypertension is affecting the cardiac muscle.
+   -> Hypertension -> has effect -> cardiac muscle
+
+19. [cardiology_reports] Hypertension is affecting the cardiac muscle.
+   -> hypertension -> has effect -> cardiac muscle
+
+20. [cardiology_reports] There is a thrombus in the left atrium.
+   -> left atrium -> part of -> thrombus
+

@@ -1,0 +1,248 @@
+Sentence,Relation,Source_File
+The patient has a myocardial infarction in the left ventricle.,left ventricle -> subclass of -> myocardial infarction,cardiology_reports
+The patient has a myocardial infarction in the left ventricle.,myocardial infarction -> has cause -> left ventricle,cardiology_reports
+The patient has a myocardial infarction in the left ventricle.,left ventricle -> has effect -> myocardial infarction,cardiology_reports
+The patient has a myocardial infarction in the left ventricle.,myocardial infarction -> has cause -> left ventricle,cardiology_reports
+There is atherosclerosis in the coronary arteries.,coronary arteries -> has effect -> atherosclerosis,cardiology_reports
+There is atherosclerosis in the coronary arteries.,coronary arteries -> has cause -> atherosclerosis,cardiology_reports
+There is atherosclerosis in the coronary arteries.,coronary arteries -> subclass of -> arteries,cardiology_reports
+The echocardiogram shows mitral valve regurgitation.,mitral valve regurgitation -> subclass of -> echocardiogram,cardiology_reports
+The echocardiogram shows mitral valve regurgitation.,mitral valve -> subclass of -> regurgitation,cardiology_reports
+The echocardiogram shows mitral valve regurgitation.,regurgitation -> has cause -> mitral valve,cardiology_reports
+Arrhythmia was detected in the atrial chambers.,atrial chambers -> subclass of -> Arrhythmia,cardiology_reports
+Arrhythmia was detected in the atrial chambers.,atrial chambers -> has effect -> Arrhythmia,cardiology_reports
+Arrhythmia was detected in the atrial chambers.,Arrhythmia -> location -> atrial chambers,cardiology_reports
+The patient presents with chest pain and shortness of breath.,shortness of breath -> subclass of -> chest pain,cardiology_reports
+The patient presents with chest pain and shortness of breath.,chest pain -> subclass of -> shortness of breath,cardiology_reports
+The patient presents with chest pain and shortness of breath.,chest pain -> has effect -> shortness of breath,cardiology_reports
+Hypertension is affecting the cardiac muscle.,cardiac muscle -> has effect -> Hypertension,cardiology_reports
+Hypertension is affecting the cardiac muscle.,Hypertension -> has effect -> cardiac muscle,cardiology_reports
+Hypertension is affecting the cardiac muscle.,hypertension -> has effect -> cardiac muscle,cardiology_reports
+There is a thrombus in the left atrium.,left atrium -> part of -> thrombus,cardiology_reports
+There is a thrombus in the left atrium.,left atrium -> instance of -> thrombus,cardiology_reports
+There is a thrombus in the left atrium.,left atrium -> has part -> thrombus,cardiology_reports
+"The electrocardiogram reveals ST elevation in leads II, III, and aVF.",ST elevation -> subclass of -> electrocardiogram,cardiology_reports
+"The electrocardiogram reveals ST elevation in leads II, III, and aVF.",leads -> subclass of -> aVF,cardiology_reports
+"The electrocardiogram reveals ST elevation in leads II, III, and aVF.",leads -> part of -> aVF,cardiology_reports
+The patient has inflammation of the small intestine.,small intestine -> has effect -> inflammation,gastroenterology_reports
+The patient has inflammation of the small intestine.,small intestine -> subclass of -> inflammation,gastroenterology_reports
+The patient has inflammation of the small intestine.,inflammation -> location -> small intestine,gastroenterology_reports
+There is a polyp in the colon.,polyp -> part of -> colon,gastroenterology_reports
+There is a polyp in the colon.,colon -> has part -> polyp,gastroenterology_reports
+There is a polyp in the colon.,polyp -> location -> colon,gastroenterology_reports
+Gastritis is present in the stomach lining.,Gastritis -> location -> stomach lining,gastroenterology_reports
+Gastritis is present in the stomach lining.,stomach lining -> has effect -> Gastritis,gastroenterology_reports
+Gastritis is present in the stomach lining.,stomach -> has part -> lining,gastroenterology_reports
+Gastritis is present in the stomach lining.,lining -> part of -> stomach,gastroenterology_reports
+The liver shows signs of cirrhosis.,cirrhosis -> location -> liver,gastroenterology_reports
+The liver shows signs of cirrhosis.,cirrhosis -> has effect -> liver,gastroenterology_reports
+The liver shows signs of cirrhosis.,cirrhosis -> subclass of -> liver shows signs,gastroenterology_reports
+A mass was found in the pancreas.,pancreas -> instance of -> mass,gastroenterology_reports
+A mass was found in the pancreas.,pancreas -> subclass of -> mass,gastroenterology_reports
+A mass was found in the pancreas.,pancreas -> has part -> mass,gastroenterology_reports
+The patient presents with abdominal pain and nausea.,abdominal pain -> has effect -> nausea,gastroenterology_reports
+The patient presents with abdominal pain and nausea.,abdominal pain -> subclass of -> nausea,gastroenterology_reports
+The patient presents with abdominal pain and nausea.,nausea -> subclass of -> abdominal pain,gastroenterology_reports
+There is ulceration in the duodenum.,duodenum -> subclass of -> ulceration,gastroenterology_reports
+There is ulceration in the duodenum.,duodenum -> has effect -> ulceration,gastroenterology_reports
+There is ulceration in the duodenum.,duodenum -> medical condition treated -> ulceration,gastroenterology_reports
+Hepatitis is affecting the liver tissue.,Hepatitis -> location -> liver tissue,gastroenterology_reports
+Hepatitis is affecting the liver tissue.,Hepatitis -> has cause -> liver tissue,gastroenterology_reports
+Hepatitis is affecting the liver tissue.,Hepatitis -> has cause -> liver tissue,gastroenterology_reports
+Hepatitis is affecting the liver tissue.,liver tissue -> has effect -> Hepatitis,gastroenterology_reports
+The patient has a lesion in the frontal lobe.,frontal lobe -> instance of -> lesion,neurology_reports
+The patient has a lesion in the frontal lobe.,frontal lobe -> subclass of -> lesion,neurology_reports
+The patient has a lesion in the frontal lobe.,frontal lobe -> has effect -> lesion,neurology_reports
+There is hemorrhage in the cerebellum.,hemorrhage -> location -> cerebellum,neurology_reports
+There is hemorrhage in the cerebellum.,cerebellum -> has effect -> hemorrhage,neurology_reports
+There is hemorrhage in the cerebellum.,hemorrhage in the cerebellum -> location -> cerebellum,neurology_reports
+Multiple sclerosis is affecting the white matter.,white matter -> facet of -> Multiple sclerosis,neurology_reports
+Multiple sclerosis is affecting the white matter.,white matter -> has effect -> Multiple sclerosis,neurology_reports
+Multiple sclerosis is affecting the white matter.,white matter -> subclass of -> affecting the white matter,neurology_reports
+A tumor was detected in the brainstem.,brainstem -> subclass of -> tumor,neurology_reports
+A tumor was detected in the brainstem.,brainstem -> has part -> tumor,neurology_reports
+A tumor was detected in the brainstem.,brainstem -> part of -> brain,neurology_reports
+The patient presents with seizures and confusion.,confusion -> subclass of -> seizure,neurology_reports
+The patient presents with seizures and confusion.,confusion -> has effect -> seizure,neurology_reports
+The patient presents with seizures and confusion.,seizure -> has effect -> confusion,neurology_reports
+There is atrophy in the hippocampus.,atrophy -> location -> hippocampus,neurology_reports
+There is atrophy in the hippocampus.,atrophy -> facet of -> hippocampus,neurology_reports
+There is atrophy in the hippocampus.,atrophy -> has cause -> hippocampus,neurology_reports
+Stroke has damaged the motor cortex.,motor cortex -> has effect -> Stroke,neurology_reports
+Stroke has damaged the motor cortex.,motor cortex -> facet of -> Stroke,neurology_reports
+Stroke has damaged the motor cortex.,motor cortex -> significant event -> Stroke,neurology_reports
+The MRI shows inflammation in the spinal cord.,spinal cord -> use -> MRI,neurology_reports
+The MRI shows inflammation in the spinal cord.,spinal cord -> has effect -> MRI,neurology_reports
+The MRI shows inflammation in the spinal cord.,spinal cord -> has part -> MRI,neurology_reports
+The patient has a fracture in the femur.,femur -> subclass of -> fracture,orthopedics_reports
+The patient has a fracture in the femur.,femur -> has effect -> fracture,orthopedics_reports
+The patient has a fracture in the femur.,femur -> instance of -> fracture,orthopedics_reports
+There is arthritis in the knee joint.,arthritis -> location -> knee joint,orthopedics_reports
+There is arthritis in the knee joint.,arthritis -> has cause -> knee joint,orthopedics_reports
+There is arthritis in the knee joint.,arthritis -> has cause -> knee joint,orthopedics_reports
+There is arthritis in the knee joint.,knee joint -> has effect -> arthritis,orthopedics_reports
+A tear was found in the rotator cuff.,rotator cuff -> has effect -> tear,orthopedics_reports
+A tear was found in the rotator cuff.,rotator cuff -> instance of -> tear,orthopedics_reports
+A tear was found in the rotator cuff.,rotator cuff -> subclass of -> tear,orthopedics_reports
+The X-ray shows dislocation of the shoulder.,dislocation -> subclass of -> X-ray,orthopedics_reports
+The X-ray shows dislocation of the shoulder.,dislocation of the shoulder -> subclass of -> X-ray,orthopedics_reports
+The X-ray shows dislocation of the shoulder.,dislocation -> studied by -> X-ray,orthopedics_reports
+There is inflammation in the tendons.,tendon -> has effect -> inflammation,orthopedics_reports
+There is inflammation in the tendons.,inflammation -> location -> tendon,orthopedics_reports
+There is inflammation in the tendons.,tendon -> subclass of -> inflammation,orthopedics_reports
+The patient presents with joint pain and stiffness.,stiffness -> subclass of -> joint pain,orthopedics_reports
+The patient presents with joint pain and stiffness.,joint pain -> subclass of -> stiffness,orthopedics_reports
+The patient presents with joint pain and stiffness.,pain -> subclass of -> joint,orthopedics_reports
+A bone spur is present in the spine.,bone spur -> part of -> spine,orthopedics_reports
+A bone spur is present in the spine.,spine -> has part -> bone spur,orthopedics_reports
+A bone spur is present in the spine.,bone spur -> part of -> spine,orthopedics_reports
+A bone spur is present in the spine.,spine -> has part -> bone spur,orthopedics_reports
+There is cartilage damage in the hip joint.,cartilage -> part of -> hip joint,orthopedics_reports
+There is cartilage damage in the hip joint.,hip joint -> has part -> cartilage,orthopedics_reports
+There is cartilage damage in the hip joint.,cartilage -> part of -> hip joint,orthopedics_reports
+There is cartilage damage in the hip joint.,hip joint -> has part -> cartilage,orthopedics_reports
+The patient has pneumonia in the right lung.,pneumonia -> location -> lung,pulmonology_reports
+The patient has pneumonia in the right lung.,pneumonia -> location -> right lung,pulmonology_reports
+The patient has pneumonia in the right lung.,pneumonia -> has cause -> right lung,pulmonology_reports
+The patient has pneumonia in the right lung.,right lung -> has effect -> pneumonia,pulmonology_reports
+There is a nodule in the left lung lobe.,left lung lobe -> subclass of -> nodule,pulmonology_reports
+There is a nodule in the left lung lobe.,left lung lobe -> instance of -> nodule,pulmonology_reports
+There is a nodule in the left lung lobe.,left lung -> instance of -> lobe,pulmonology_reports
+Asthma is affecting the bronchial tubes.,Asthma -> has cause -> bronchial tubes,pulmonology_reports
+Asthma is affecting the bronchial tubes.,Asthma -> has cause -> bronchial tubes,pulmonology_reports
+Asthma is affecting the bronchial tubes.,bronchial tubes -> has effect -> Asthma,pulmonology_reports
+Asthma is affecting the bronchial tubes.,Asthma -> has effect -> bronchial tubes,pulmonology_reports
+The chest CT shows emphysema in both lungs.,emphysema -> has effect -> lungs,pulmonology_reports
+The chest CT shows emphysema in both lungs.,emphysema -> has effect -> both lungs,pulmonology_reports
+The chest CT shows emphysema in both lungs.,emphysema -> location -> lungs,pulmonology_reports
+A pleural effusion is present around the lungs.,pleural effusion -> location -> lungs,pulmonology_reports
+A pleural effusion is present around the lungs.,pleural effusion -> part of -> lungs,pulmonology_reports
+A pleural effusion is present around the lungs.,pleural effusion -> location -> lung,pulmonology_reports
+The patient presents with cough and difficulty breathing.,cough -> subclass of -> difficulty breathing,pulmonology_reports
+The patient presents with cough and difficulty breathing.,cough -> has cause -> difficulty breathing,pulmonology_reports
+The patient presents with cough and difficulty breathing.,cough -> has cause -> difficulty breathing,pulmonology_reports
+The patient presents with cough and difficulty breathing.,difficulty breathing -> has effect -> cough,pulmonology_reports
+There is fibrosis in the lung tissue.,fibrosis -> location -> lung tissue,pulmonology_reports
+There is fibrosis in the lung tissue.,lung tissue -> subclass of -> fibrosis,pulmonology_reports
+There is fibrosis in the lung tissue.,fibrosis -> has cause -> lung tissue,pulmonology_reports
+Bronchitis is causing inflammation in the airways.,Bronchitis -> subclass of -> inflammation in the airways,pulmonology_reports
+Bronchitis is causing inflammation in the airways.,Bronchitis -> has cause -> inflammation in the airways,pulmonology_reports
+Bronchitis is causing inflammation in the airways.,Bronchitis -> subclass of -> inflammation,pulmonology_reports
+Left kidney stone.,Left kidney stone -> instance of -> kidney stone,urology_reports
+Left kidney stone.,Left kidney stone -> subclass of -> kidney stone,urology_reports
+Left kidney stone.,Left kidney stone -> instance of -> stone,urology_reports
+There is inflammation of the bladder.,bladder -> has effect -> inflammation,urology_reports
+There is inflammation of the bladder.,bladder -> subclass of -> inflammation,urology_reports
+There is inflammation of the bladder.,inflammation of the bladder -> subclass of -> inflammation,urology_reports
+A tumor was found in the prostate.,tumor -> location -> prostate,urology_reports
+A tumor was found in the prostate.,prostate -> subclass of -> tumor,urology_reports
+A tumor was found in the prostate.,tumor -> part of -> prostate,urology_reports
+The ultrasound shows cysts in the kidneys.,cysts -> part of -> kidney,urology_reports
+The ultrasound shows cysts in the kidneys.,cysts -> location -> kidney,urology_reports
+The ultrasound shows cysts in the kidneys.,cysts in the kidneys -> subclass of -> ultrasound,urology_reports
+There is infection in the urinary tract.,infection -> location -> urinary tract,urology_reports
+There is infection in the urinary tract.,urinary tract -> has effect -> infection,urology_reports
+There is infection in the urinary tract.,infection in the urinary tract -> location -> urinary tract,urology_reports
+The patient presents with blood in the urine.,blood -> part of -> urine,urology_reports
+The patient presents with blood in the urine.,blood in the urine -> subclass of -> urine,urology_reports
+The patient presents with blood in the urine.,blood in the urine -> subclass of -> blood,urology_reports
+A stricture is present in the urethra.,urethra -> subclass of -> stricture,urology_reports
+A stricture is present in the urethra.,stricture -> location -> urethra,urology_reports
+A stricture is present in the urethra.,stricture -> part of -> urethra,urology_reports
+There is enlargement of the prostate gland.,prostate -> instance of -> gland,urology_reports
+There is enlargement of the prostate gland.,prostate gland -> has effect -> enlargement,urology_reports
+There is enlargement of the prostate gland.,prostate -> subclass of -> gland,urology_reports
+The patient has cholelithiasis.,cholelithiasis -> has part -> patient,cholelithiasis_reports
+The patient has cholelithiasis.,cholelithiasis -> subclass of -> patient,cholelithiasis_reports
+The patient has cholelithiasis.,cholelithiasis -> instance of -> patient,cholelithiasis_reports
+Multiple gallstones are present in the bile duct.,gallstone -> location -> bile duct,cholelithiasis_reports
+Multiple gallstones are present in the bile duct.,bile duct -> product or material produced -> gallstone,cholelithiasis_reports
+Multiple gallstones are present in the bile duct.,gallstones -> location -> bile duct,cholelithiasis_reports
+There is a large stone obstructing the common bile duct.,bile duct -> part of -> common,cholelithiasis_reports
+There is a large stone obstructing the common bile duct.,common bile duct -> instance of -> stone,cholelithiasis_reports
+There is a large stone obstructing the common bile duct.,common bile duct -> has part -> stone obstructing the common bile duct,cholelithiasis_reports
+The ultrasound shows cholelithiasis with gallbladder wall thickening.,cholelithiasis -> has cause -> gallbladder wall thickening,cholelithiasis_reports
+The ultrasound shows cholelithiasis with gallbladder wall thickening.,cholelithiasis -> subclass of -> gallbladder wall thickening,cholelithiasis_reports
+The ultrasound shows cholelithiasis with gallbladder wall thickening.,cholelithiasis -> has effect -> gallbladder,cholelithiasis_reports
+A calculus is located in the cystic duct.,calculus -> location -> cystic duct,cholelithiasis_reports
+A calculus is located in the cystic duct.,calculus -> part of -> cystic duct,cholelithiasis_reports
+A calculus is located in the cystic duct.,calculus -> part of -> cystic duct,cholelithiasis_reports
+A calculus is located in the cystic duct.,cystic duct -> has part -> calculus,cholelithiasis_reports
+The patient presents with biliary colic due to gallstones.,biliary colic -> has cause -> gallstone,cholelithiasis_reports
+The patient presents with biliary colic due to gallstones.,biliary colic -> has cause -> gallstones,cholelithiasis_reports
+The patient presents with biliary colic due to gallstones.,biliary colic -> has cause -> gallstones,cholelithiasis_reports
+The patient presents with biliary colic due to gallstones.,gallstones -> has effect -> biliary colic,cholelithiasis_reports
+There is cholecystitis secondary to cholelithiasis.,cholecystitis -> subclass of -> cholelithiasis,cholelithiasis_reports
+There is cholecystitis secondary to cholelithiasis.,cholecystitis -> has cause -> cholelithiasis,cholelithiasis_reports
+There is cholecystitis secondary to cholelithiasis.,cholelithiasis -> has effect -> cholecystitis,cholelithiasis_reports
+There is cholecystitis secondary to cholelithiasis.,cholecystitis -> has cause -> cholelithiasis,cholelithiasis_reports
+The ERCP revealed stones in the hepatic duct.,stones -> location -> hepatic duct,cholelithiasis_reports
+The ERCP revealed stones in the hepatic duct.,hepatic duct -> subclass of -> stones,cholelithiasis_reports
+The ERCP revealed stones in the hepatic duct.,stones -> part of -> hepatic duct,cholelithiasis_reports
+A gallstone is impacted at the ampulla of Vater.,ampulla -> part of -> Vater,cholelithiasis_reports
+A gallstone is impacted at the ampulla of Vater.,ampulla of Vater -> medical condition treated -> gallstone,cholelithiasis_reports
+A gallstone is impacted at the ampulla of Vater.,ampulla -> part of -> Vater,cholelithiasis_reports
+A gallstone is impacted at the ampulla of Vater.,Vater -> has part -> ampulla,cholelithiasis_reports
+The patient has chronic cholecystitis with multiple gallstones.,cholecystitis -> has cause -> gallstone,cholelithiasis_reports
+The patient has chronic cholecystitis with multiple gallstones.,cholecystitis -> has cause -> gallstone,cholelithiasis_reports
+The patient has chronic cholecystitis with multiple gallstones.,gallstone -> has effect -> cholecystitis,cholelithiasis_reports
+The patient has chronic cholecystitis with multiple gallstones.,gallstone -> has effect -> cholecystitis,cholelithiasis_reports
+There is bile duct dilation due to choledocholithiasis.,choledocholithiasis -> subclass of -> bile duct dilation,cholelithiasis_reports
+There is bile duct dilation due to choledocholithiasis.,choledocholithiasis -> has cause -> bile duct dilation,cholelithiasis_reports
+There is bile duct dilation due to choledocholithiasis.,choledocholithiasis -> has effect -> bile duct dilation,cholelithiasis_reports
+The CT scan shows gallbladder stones with pericholecystic fluid.,gallbladder stones -> subclass of -> pericholecystic fluid,cholelithiasis_reports
+The CT scan shows gallbladder stones with pericholecystic fluid.,gallbladder stones -> has effect -> pericholecystic fluid,cholelithiasis_reports
+The CT scan shows gallbladder stones with pericholecystic fluid.,pericholecystic fluid -> subclass of -> gallbladder stones,cholelithiasis_reports
+The patient has diabetes affecting the pancreas.,diabetes -> has cause -> pancreas,test_sentences
+The patient has diabetes affecting the pancreas.,diabetes -> has cause -> pancreas,test_sentences
+The patient has diabetes affecting the pancreas.,pancreas -> has effect -> diabetes,test_sentences
+The patient has diabetes affecting the pancreas.,diabetes -> has effect -> pancreas,test_sentences
+There is a malignant tumor in the breast tissue.,malignant tumor -> location -> breast tissue,test_sentences
+There is a malignant tumor in the breast tissue.,tumor -> subclass of -> malignant,test_sentences
+There is a malignant tumor in the breast tissue.,malignant tumor -> has effect -> breast tissue,test_sentences
+The biopsy shows cancer cells in the lymph nodes.,lymph nodes -> subclass of -> cancer cells,test_sentences
+The biopsy shows cancer cells in the lymph nodes.,cancer cells -> location -> lymph nodes,test_sentences
+The biopsy shows cancer cells in the lymph nodes.,lymph nodes -> subclass of -> cancer cell,test_sentences
+A blood clot is present in the pulmonary artery.,pulmonary artery -> has part -> blood clot,test_sentences
+A blood clot is present in the pulmonary artery.,blood clot -> location -> pulmonary artery,test_sentences
+A blood clot is present in the pulmonary artery.,pulmonary artery -> subclass of -> blood clot,test_sentences
+The patient presents with fever and fatigue.,fever -> has effect -> fatigue,test_sentences
+The patient presents with fever and fatigue.,fever -> subclass of -> fatigue,test_sentences
+The patient presents with fever and fatigue.,fatigue -> subclass of -> fever,test_sentences
+There is swelling in the lower extremities.,swelling -> location -> lower extremities,test_sentences
+There is swelling in the lower extremities.,lower extremities -> subclass of -> swelling,test_sentences
+There is swelling in the lower extremities.,swelling -> subclass of -> lower extremities,test_sentences
+An infection has spread to the bloodstream.,bloodstream -> has cause -> infection,test_sentences
+An infection has spread to the bloodstream.,spread -> has cause -> infection,test_sentences
+An infection has spread to the bloodstream.,infection -> has cause -> spread,test_sentences
+An infection has spread to the bloodstream.,spread -> has effect -> infection,test_sentences
+The lab results show elevated levels in the blood.,blood -> studied by -> lab,test_sentences
+The lab results show elevated levels in the blood.,elevated levels in the blood -> subclass of -> lab results,test_sentences
+The lab results show elevated levels in the blood.,lab results -> part of -> blood,test_sentences
+Complex case: The patient has coronary artery disease with myocardial infarction affecting the left ventricle and causing heart failure.,coronary artery disease -> has effect -> myocardial infarction,test_cases
+Complex case: The patient has coronary artery disease with myocardial infarction affecting the left ventricle and causing heart failure.,myocardial infarction -> has effect -> heart failure,test_cases
+Complex case: The patient has coronary artery disease with myocardial infarction affecting the left ventricle and causing heart failure.,coronary artery disease -> has effect -> myocardial infarction,test_cases
+Complex case: The patient has coronary artery disease with myocardial infarction affecting the left ventricle and causing heart failure.,coronary artery disease -> has effect -> myocardial infarction,test_cases
+Complex case: The patient has coronary artery disease with myocardial infarction affecting the left ventricle and causing heart failure.,myocardial infarction -> has cause -> coronary artery disease,test_cases
+Multi-organ case: There is metastatic cancer from the lung spreading to the liver and brain.,brain -> connects with -> liver,test_cases
+Multi-organ case: There is metastatic cancer from the lung spreading to the liver and brain.,liver -> connects with -> brain,test_cases
+Multi-organ case: There is metastatic cancer from the lung spreading to the liver and brain.,brain -> connects with -> liver,test_cases
+Multi-organ case: There is metastatic cancer from the lung spreading to the liver and brain.,liver -> connects with -> brain,test_cases
+Chronic condition: The patient has rheumatoid arthritis causing joint inflammation and bone erosion.,rheumatoid arthritis -> subclass of -> joint inflammation,test_cases
+Chronic condition: The patient has rheumatoid arthritis causing joint inflammation and bone erosion.,rheumatoid arthritis -> subclass of -> inflammation,test_cases
+Chronic condition: The patient has rheumatoid arthritis causing joint inflammation and bone erosion.,rheumatoid arthritis -> has effect -> joint inflammation,test_cases
+Acute presentation: Emergency surgery was performed for appendicitis with perforation and peritonitis.,peritonitis -> subclass of -> appendicitis,test_cases
+Acute presentation: Emergency surgery was performed for appendicitis with perforation and peritonitis.,peritonitis -> subclass of -> perforation,test_cases
+Acute presentation: Emergency surgery was performed for appendicitis with perforation and peritonitis.,perforation -> has effect -> peritonitis,test_cases
+Complication case: Post-operative infection developed at the surgical site with abscess formation.,abscess -> subclass of -> Post-operative infection,test_cases
+Complication case: Post-operative infection developed at the surgical site with abscess formation.,abscess -> subclass of -> infection,test_cases
+"Systemic disease: Lupus is affecting multiple organs including kidneys, joints, and skin.",kidney -> instance of -> organs,test_cases
+"Systemic disease: Lupus is affecting multiple organs including kidneys, joints, and skin.",kidneys -> instance of -> organs,test_cases
+"Systemic disease: Lupus is affecting multiple organs including kidneys, joints, and skin.",kidney -> instance of -> organ,test_cases
+Genetic condition: Cystic fibrosis is causing lung disease and pancreatic insufficiency.,Cystic fibrosis -> has effect -> lung disease,test_cases
+Genetic condition: Cystic fibrosis is causing lung disease and pancreatic insufficiency.,Cystic fibrosis -> has effect -> lung disease,test_cases
+Genetic condition: Cystic fibrosis is causing lung disease and pancreatic insufficiency.,lung disease -> has cause -> Cystic fibrosis,test_cases
+Genetic condition: Cystic fibrosis is causing lung disease and pancreatic insufficiency.,Cystic fibrosis -> has cause -> genetic condition,test_cases
+Trauma case: The accident caused multiple fractures in the ribs and pneumothorax.,pneumothorax -> subclass of -> Trauma case,test_cases
+Trauma case: The accident caused multiple fractures in the ribs and pneumothorax.,pneumothorax -> subclass of -> Trauma,test_cases
+Trauma case: The accident caused multiple fractures in the ribs and pneumothorax.,pneumothorax -> has cause -> Trauma,test_cases

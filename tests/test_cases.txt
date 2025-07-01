@@ -1,0 +1,8 @@
+Complex case: The patient has coronary artery disease with myocardial infarction affecting the left ventricle and causing heart failure.
+Multi-organ case: There is metastatic cancer from the lung spreading to the liver and brain.
+Chronic condition: The patient has rheumatoid arthritis causing joint inflammation and bone erosion.
+Acute presentation: Emergency surgery was performed for appendicitis with perforation and peritonitis.
+Complication case: Post-operative infection developed at the surgical site with abscess formation.
+Systemic disease: Lupus is affecting multiple organs including kidneys, joints, and skin.
+Genetic condition: Cystic fibrosis is causing lung disease and pancreatic insufficiency.
+Trauma case: The accident caused multiple fractures in the ribs and pneumothorax.
